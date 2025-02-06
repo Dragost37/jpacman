@@ -92,11 +92,7 @@ public class Player extends Unit {
         this.lives--;
         if(this.lives == 0) {
             this.setAlive(false);
-            JOptionPane.showMessageDialog(null, "Tu as perdu tous tes vies!", "Death", JOptionPane.INFORMATION_MESSAGE);
-        } else {
-            JOptionPane.showMessageDialog(null, "Tu as perdu une vie! Il vous reste " + this.getLives() + " vies", "Death",JOptionPane.INFORMATION_MESSAGE);
         }
-
     }
 
     /**
